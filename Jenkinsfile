@@ -7,6 +7,7 @@ pipeline {
               sh """
                     javac HelloWorld.java
                     java HelloWorld
+                 """
             }
         }
         stage('Test') {
